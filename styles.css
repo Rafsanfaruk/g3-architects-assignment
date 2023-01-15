@@ -56,11 +56,11 @@ nav > ul {
     padding: 10px 0;
     
 }
-.section-text-2, .banner-text-2, .ten, .nine, .eight, .seven, .six{
+.section-text-2, .banner-text-2, .ten, .nine, .eight, .seven, .six, .icon-text, .sponsor-text-1{
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 400px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 button{
     background: #FF900E;
@@ -116,7 +116,7 @@ span {
     gap: 50px;
     justify-content: center;
     align-items: center;
-    padding: 50px 80px;
+    padding: 50px 150px;
 } 
 /* .architect-texts{
     display: grid;
@@ -125,10 +125,11 @@ span {
     align-items: center;
     justify-content: center;} */
 
-    .one, .two, .three, .four, .five{
+    .one, .two, .three, .four, .five, .icon,{
       font-family: var(--primary-font);
        font-weight: 500;
        font-size: 20px;
+       
     }
 
 .text-1, .text-2, .text-3, .text-4{
@@ -144,7 +145,7 @@ span {
 
 }
 
- .architect-texts, .texts{
+ .architect-texts, .texts, .sponsor-text-1{
     font-family: var(--primary-font);
     font-weight: 500;
     display: flex;
@@ -168,4 +169,54 @@ span {
     height: 70px;
     border-radius: 8px;
     border: none;
+}
+/* .........icons-part.......... */
+
+.icons-section{
+    text-align:start;
+    align-items: center;
+    margin-left: 10px;
+    padding-left:130px;
+    
+}
+.icon-parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    padding: 50px;
+}
+
+.icon-part-1, .icon-part-2, .icon-part-3, .icon-part-4{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+}
+
+/* ............Sponsors-part........ */
+
+.sponsor-text{
+ font-family: var(--primary-font);
+    text-align: center;
+    
+}
+
+.sponsor-logo{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content:center;
+    align-items: center;
+    padding: 50px 100px;
+}
+/* ..........footer-part...... */
+.footer-part{
+    background-color: var(--linen);
+    height: 35px;
+    /* width: 50%; */
+    border-radius: 8px;
+    text-align: center;
+    
+    margin-bottom: 100px;
+
+   
 }
